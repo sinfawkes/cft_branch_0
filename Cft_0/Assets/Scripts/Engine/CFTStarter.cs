@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace CFTBasse
+namespace CFTBase
 {
     public class CFTStarter : MonoBehaviour
     {
