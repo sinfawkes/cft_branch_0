@@ -5,16 +5,16 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{011C9474-21EA-5EA6-966A-BEF0D671A586}</ProjectGuid>
+    <ProjectGuid>{E35FEB48-C652-7931-F9A6-DDA38057A684}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
     <CompilerResponseFile></CompilerResponseFile>
-    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityProjectType>GamePlugins:3</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
     <UnityVersion>5.6.1f1</UnityVersion>
     <RootNamespace></RootNamespace>
@@ -84,25 +84,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Engine\CFTEngine.cs" />
-    <Compile Include="Assets\Scripts\Engine\CFTGame.cs" />
-    <Compile Include="Assets\Scripts\Engine\CFTStarter.cs" />
-    <Compile Include="Assets\Scripts\Engine\Entity.cs" />
-    <Compile Include="Assets\Scripts\Engine\InputManager.cs" />
-    <Compile Include="Assets\Scripts\Extern\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
-    <Compile Include="Assets\Scripts\Extern\CrossPlatformInput\Scripts\ButtonHandler.cs" />
-    <Compile Include="Assets\Scripts\Extern\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
-    <Compile Include="Assets\Scripts\Extern\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
-    <Compile Include="Assets\Scripts\Extern\CrossPlatformInput\Scripts\Joystick.cs" />
-    <Compile Include="Assets\Scripts\Extern\CrossPlatformInput\Scripts\MobileControlRig.cs" />
-    <Compile Include="Assets\Scripts\Extern\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
-    <Compile Include="Assets\Scripts\Extern\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
-    <Compile Include="Assets\Scripts\Extern\CrossPlatformInput\Scripts\TiltInput.cs" />
-    <Compile Include="Assets\Scripts\Extern\CrossPlatformInput\Scripts\TouchPad.cs" />
-    <Compile Include="Assets\Scripts\Extern\CrossPlatformInput\Scripts\VirtualInput.cs" />
+    <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+    <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+    <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+    <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+    <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
+    <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+    <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+    <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+    <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
+    <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
+    <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Scripts\Extern\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
